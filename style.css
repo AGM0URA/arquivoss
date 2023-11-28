@@ -139,6 +139,7 @@
     background-color:#D9B471;
     color: #fff;
 
+
     display: flex;
     flex-direction:column-reverse;
     justify-content: end;
@@ -266,7 +267,7 @@ button:hover {
     margin-top: 20px;
 }
 
-/* Adicione a seguinte regra para estilizar a seção de custo total */
+/* Adicione a seguinte regraa para estilizar a seção de custo total */
 #totalCost {
     margin-top: 20px;
     font-weight: bold;
