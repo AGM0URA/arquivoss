@@ -44,6 +44,8 @@ class MobileNavbar {
   mobileNavbar.init();
 
 
+  /*PARTE DO LOGIN*/
+
   document.addEventListener("DOMContentLoaded", function () {
     const loginForm = document.getElementById("loginForm");
     const reservationForm = document.getElementById("reservationForm");
@@ -59,11 +61,11 @@ class MobileNavbar {
 
         // Lógica simplificada de login para fins de demonstração
         if (username === "cliente" && password === "senha123") {
-            loginForm.style.display = "none"; // Esconde o formulário de login
-            reservationForm.style.display = "block"; // Exibe o formulário de reservas
-            reservationList.style.display = "block"; // Exibe a lista de reservas
-            guestListButton.style.display = "block"; // Exibe o botão para ver a lista de hóspedes
-            logoutButton.style.display = "block"; // Exibe o botão de logout
+            window.location.replace("Reserva.html");
+
+           
+
+
         } else {
             alert("Credenciais inválidas. Tente novamente.");
         }
