@@ -61,7 +61,7 @@ class MobileNavbar {
 
         // Lógica simplificada de login para fins de demonstração
         if (username === "cliente" && password === "senha123") {
-            window.location.replace("Reserva.html");
+            window.location.href ="/pages/Reserva.html";
 
            
 
