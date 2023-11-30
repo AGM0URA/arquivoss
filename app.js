@@ -267,7 +267,7 @@ function updateGuestList() {
     // Limpar conteúdo atual
     guestListContainer.innerHTML = "";
 
-    // Adicionar cada hóspede à lista
+    // Adicionar cada hóspede à lista .
     guests.forEach(guest => {
         const guestItem = document.createElement("div");
         guestItem.innerHTML = `<p><strong>Hóspede:</strong> ${guest}</p>`;
